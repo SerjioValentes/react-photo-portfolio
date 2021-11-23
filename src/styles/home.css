@@ -156,6 +156,7 @@ ul li {
 .navBar {
     display: flex;
     position: sticky;
+    top: 0;
     justify-content: center;
     height: 10vh;
     align-items: center;
