@@ -78,7 +78,7 @@ ul li {
 
 .home-section {
     display: flex;
-    min-height: 100vh;
+    min-height: 90vh;
     padding: 0 10px;
 }
 
@@ -131,7 +131,7 @@ ul li {
 
 .wrapper-container {
     max-width: 1400px;
-    /*margin: auto;*/
+    margin: auto;
 }
 
 .wrapper-container h1 {
@@ -156,6 +156,7 @@ ul li {
 .navBar {
     display: flex;
     position: sticky;
+    text-align: center;
     top: 0;
     justify-content: center;
     height: 10vh;
@@ -196,3 +197,11 @@ ul li {
 
 /*END----------Contact page-------------*/
 
+@media (max-width: 400px) {
+    .home-section__fullscreen h2{
+      font-size: 35px;
+    }
+    .navBar{
+        font-size: 12px;
+    }
+}

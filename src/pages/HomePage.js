@@ -20,7 +20,6 @@ return (
     <div className="home-page">
         <NavBar/>
 
-        <div>
             <section className="home-section">
                 <div className="home-section__fullscreen">
                     <h2 className="home-section__h2-text">VasilKamalov</h2>
@@ -28,7 +27,6 @@ return (
                 </div>
             </section>
 
-        </div>
     </div>
 )
 }
